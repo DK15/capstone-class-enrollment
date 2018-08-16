@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="136dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:src="@drawable/isdm_logo1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/contact_tv"
+        style="@style/FragTitleTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:padding="8dp"
+        android:text="@string/addr"
+        android:contentDescription="@string/addr"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/id_mail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:src="@drawable/mail"
+            android:contentDescription="@string/email"/>
+
+        <TextView
+            android:id="@+id/email_tv"
+            style="@style/FragTitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/id_mail"
+            android:padding="8dp"
+            android:text="@string/email"
+            android:contentDescription="@string/email"
+            android:layout_toEndOf="@id/id_mail" />
+
+        <ImageView
+            android:id="@+id/id_phone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/id_mail"
+            android:padding="8dp"
+            android:src="@drawable/phone"
+            android:contentDescription="@string/phone_logo"/>
+
+        <TextView
+            android:id="@+id/ph_tv"
+            style="@style/FragTitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_tv"
+            android:layout_toRightOf="@id/id_phone"
+            android:padding="8dp"
+            android:text="@string/phone"
+            android:contentDescription="@string/phone"
+            android:layout_toEndOf="@id/id_phone" />
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp" />
+
+</LinearLayout>

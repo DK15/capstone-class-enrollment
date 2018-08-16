@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "698801011385",
+    "firebase_url": "https://my-captsone-isd.firebaseio.com",
+    "project_id": "my-captsone-isd",
+    "storage_bucket": "my-captsone-isd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698801011385:android:9a2e02388db3bf04",
+        "android_client_info": {
+          "package_name": "com.example.darshan.isd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698801011385-qffd67p5vr14rm53u4co3c1rqgje75s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzNTJc-AV0KekRDFWDT6cmszn7EbRjOuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.darshan.isd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/isdm_logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:label="Sign up"
+            android:parentActivityName=".activities.MainActivity"
+            />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="Sign in"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.ResetPasswordActivity"
+            android:parentActivityName=".activities.LoginActivity" />
+        <activity
+            android:name=".activities.HubActivity"
+            android:parentActivityName=".activities.LoginActivity" />
+        <activity
+            android:name=".activities.ClassDetailsActivity"
+            android:parentActivityName=".activities.HubActivity" />
+        <activity
+            android:name=".activities.AboutUsActivity"
+            android:parentActivityName=".activities.HubActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.ContactActivity"
+            android:parentActivityName=".activities.HubActivity" />
+        <activity
+            android:name=".activities.PageViewActivity"
+            android:parentActivityName=".activities.ClassDetailsActivity" />
+        <activity
+            android:name=".activities.EventsActivity"
+            android:parentActivityName=".activities.HubActivity" />
+        <activity
+            android:name=".activities.AchieveActivity"
+            android:parentActivityName=".activities.HubActivity" />
+        <activity
+            android:name=".activities.EnrolledActivity"
+            android:parentActivityName=".activities.HubActivity" />
+
+        <receiver android:name=".widget.NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+        <service android:name=".widget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+    </application>
+
+</manifest>

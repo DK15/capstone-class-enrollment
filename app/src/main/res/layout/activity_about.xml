@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/isdm_logo1"
+            android:layout_width="136dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/isdm_logo"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/about_tv"
+            style="@style/FragTitleTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="30"
+            android:padding="8dp"
+            android:text="@string/about_desc"
+            android:contentDescription="@string/about_desc"/>
+
+        <TextView
+            android:id="@+id/fb_link_about"
+            style="@style/FragTitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="@string/fb_text"
+            android:contentDescription="@string/fb_text"/>
+
+        <TextView
+            android:id="@+id/founder_tv"
+            style="@style/FragTitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/founder_label"
+            android:contentDescription="@string/founder_label"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="136dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/founder_desc"
+            style="@style/FragTitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="30"
+            android:padding="8dp"
+            android:text="@string/founder_desc"
+            android:contentDescription="@string/founder_desc"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image1"
+            android:layout_width="136dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/founder_desc1"
+            style="@style/FragTitleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="30"
+            android:padding="8dp"
+            android:text="@string/founder_desc1"
+            android:contentDescription="@string/founder_desc1"/>
+
+    </LinearLayout>
+</ScrollView>

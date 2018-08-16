@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">ISDM</string>
+    <string name="bh_timing">Tuesday &amp; Thursday : 7.30 AM \n
+                             Saturday : 4 PM \n
+                             Sunday   : 11 AM</string>
+    <string name="kk_timing">Saturday &amp; Sunday : 9 AM</string>
+    <string name="zumba_timing">Monday, Wednesday : 7:30 am, 6:30 pm, 9:30 pm \n
+                                Tuesday, Thursday \n
+                                Friday : 9 am, 4 pm \n 7:30 pm, 9:30 pm</string>
+    <string name="yoga_timing">Monday to Friday : 6:30 am</string>
+    <string name="tabla_timing">Monday, Wednesday,Saturday, Sunday : 5 pm</string>
+    <string name="key_timing">Monday, Wednesday : 9 pm \n
+                              Friday, Saturday : 7 pm</string>
+    <string name="draw_timing">Monday, Wednesday, Friday, Sunday : 11 am</string>
+    <string name="guitar_timing">Monday, Thursday : 7:30 pm \n
+                                 Wednesday : 7 pm \n
+                                 Saturday : 8:30 pm \n
+                                 Sunday : 7:30 am </string>
+    <string name="chess_timing">Saturday &amp; Sunday : 10:30 am</string>
+    <string name="hd_timing">Monday to Friday : 10 am</string>
+    <string name="about_desc">Started in the year 2014, Instep School Of Dance and Music in Goregaon East, Mumbai is amongst the revered academies for dance. A team of instructors trains a plethora of students in a variety of dance forms. This school is also instrumental in organising a host of events followed by fests that feature stage shows. We are dedicated to enriching students lives through quality dance training. We encourage all our students to express themselves through dance and music. Our aim is to provide each student with self-esteem, confidence and grace to successfully achieve their goals in and outside of the classroom.</string>
+    <string name="addr">Shop No.S/8, Mhada Shopping Complex, NMP Circle 1/2, Goregaon East, Mumbai - 400065, India.</string>
+    <string name="email">: mrspreetiray@rediffmail.com</string>
+    <string name="phone">: +9122 28416766, +919702333385</string>
+    <string name="email_hint">Email</string>
+    <string name="pass_hint">Password</string>
+    <string name="reset_text">Forgot Password ? reset here</string>
+    <string name="login_text">Sign in</string>
+    <string name="ac_text">No account yet? create one</string>
+    <string name="reg_text">Sign up</string>
+    <string name="name_text">Name</string>
+    <string name="create_ac_text">Create Account</string>
+    <string name="member_text">Already a member? Login</string>
+    <string name="forgot_text">Forgot Password ?</string>
+    <string name="reset_info">We just need your registered email id to send you password reset link</string>
+    <string name="reset_pass_text">Reset Password</string>
+    <string name="back_text">Back</string>
+    <string name="show_catalog_text">Show Class Catalog</string>
+    <string name="enrolled_label">Enrolled Classes : </string>
+    <string name="email_label">Email : </string>
+    <string name="name_label">Name : </string>
+    <string name="timing_label">Our class timings:</string>
+    <string name="schedule_label">Select your schedule</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="enroll_btn">Enroll</string>
+    <string name="kathak">Kathak</string>
+    <string name="bharatnatyam">Bharatnatyam</string>
+    <string name="zumba">Zumba</string>
+    <string name="yoga">Yoga</string>
+    <string name="tabla">Tabla</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="chess">Chess</string>
+    <string name="handwriting">Handwriting</string>
+    <string name="drawing">Drawing</string>
+    <string name="guitar">Guitar</string>
+    <string name="teacher_label">Meet The Teacher</string>
+    <string name="menu_enrolled">My Enrolled Classes</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="achieveOne">Hosted ISDM\'s first ever Annual Event in 2017.</string>
+    <string name="achieveTwo">Hosted ISDM\'s second annual event in 2018.</string>
+    <string name="achieveThree">ISDM Collaborated with Vijaya Tupurani to host Zumba bash in Aurangabad city in 2017.</string>
+    <string name="achieveFour">ISDM students won 3rd prize in Dance competition.</string>
+    <string name="achieveFive">ISDM hosted first ever Zumba bash in Aurangabad city in 2017.</string>
+    <string name="achieveSix">ISDM students featured in title video of TV dance show.</string>
+    <string name="emailTo">mailto:mrspreetiray@rediffmail.com</string>
+    <string name="emailSub">Interested to know more about ISDM</string>
+    <string name="ph">tel:+9122 28416766</string>
+    <string name="map_addr">Goregaon East, Mumbai</string>
+    <string name="fb_node">EnrolledClasses</string>
+    <string name="fb_node2">className</string>
+    <string name="event1">Dance auditions for TV show</string>
+    <string name="event_dt">Date : TBA</string>
+    <string name="event2">Need volunteers for Zumba bash</string>
+    <string name="event3">ISDM to help in social service</string>
+    <string name="logout">Logout successful</string>
+    <string name="hub1">Classes we offer</string>
+    <string name="hub2">Upcoming ISDM events</string>
+    <string name="hub3">Our achievements</string>
+    <string name="hub4">Picture gallery</string>
+    <string name="hub5">About us</string>
+    <string name="hub6">Contact us</string>
+    <string name="login_val1">Email cannot be empty</string>
+    <string name="login_val2">Password cannot be empty</string>
+    <string name="login_success">Login successful</string>
+    <string name="login_val3">Incorrect password</string>
+    <string name="login_val4">Login Authentication failed</string>
+    <string name="login_val5">Name cannot be empty</string>
+    <string name="login_val6">Password should be more than 5 chars</string>
+    <string name="account_success">Account created !</string>
+    <string name="account_error">Authentication failed.</string>
+    <string name="reset_msg">We have sent you email to reset your password</string>
+    <string name="reset_error">Failed to send email</string>
+    <string name="dialog_title">InStep School Of Dance</string>
+    <string name="dialog_body">Please contact our office or visit our Facebook page for more details</string>
+    <string name="dialog_btn">OK</string>
+    <string name="checkbox_val">Please select atleast one schedule</string>
+    <string name="enroll_success">Enrollment Successful</string>
+    <string name="founder_label">Meet The Founders</string>
+    <string name="founder_desc">Preeti Ray is a Bharatnatyam visharad. She started to learn dance at the age of 5 and used to participate in school drama and musicals. She started her own dance lessons for school kids and was an instant hit with the students. Later when she moved to Mumbai, she continued learning new dance forms like Zumba, Aerobics and included those in her dance studio she formed in 2014. She is very popular among all her students with her ever smiling face and willingness to help each student to learn this art to the core.</string>
+    <string name="founder_desc1">Subroto Ray comes from Sales management background and has worked with fortune 500 companies before joining his wife Preeti fulltime to run this dance studio. He has applied sales and management experience to help this dance studio reach to larger audience and actively manages day to day activities in studio. </string>
+    <string name="kt_teacher_bio">Susmita holds diploma in Kathak and won Gold Medal at 16. She won various awards for best Choreography and has Choreographed at IIFA 2014.</string>
+    <string name="fb_text">We are on Facebook. Click here to Visit us today to see latest photos and videos from our awesome students and don\'t forget to Like us to stay updated with our latest events.</string>
+    <string name="hd_bio">Riya Sharma is a graduate in English Honors and is passionate about writing. She enjoys writing and is very keen to pass on the knowledge to ISDM students.</string>
+    <string name="tb_teacher_bio">Ashish Lohar is passionate about music and is trained in Tabla, Guitar and Keyboard instruments. He enjoys teaching to his students.</string>
+    <string name="drawing_bio">Banita Basu has been teaching Drawing since last 15 years and trains students for grade exams like Elementary and Intermediate.</string>
+    <string name="not_enrolled">You are not enrolled in our classes yet !!</string>
+    <string name="class_catalog">Class Catalog</string>
+    <string name="yoga_teacher_bio">Sameer Gharge is teaching advanced Yoga since last 3 years and has been enjoying working with students.</string>
+    <string name="appwidget_text">My Enrolled Classes</string>
+    <string name="add_widget">Add widget</string>
+    <string name="isdm_logo">InStep School Of Dance and Music logo</string>
+    <string name="phone_logo">phone</string>
+    <string name="google_maps_api_key">AIzaSyDzNTJc-AV0KekRDFWDT6cmszn7EbRjOuU</string>
+    <string name="toast_msg">Swipe to Right to see other class details</string>
+    <string name="isdm">InStep School Of Dance and Music</string>
+    <string name="register_msg">Account registered successfully</string>
+    <string name="enrol_msg">You are already enrolled in this class</string>
+
+
+</resources>

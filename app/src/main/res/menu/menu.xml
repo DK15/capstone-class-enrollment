@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_new_quote"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_enrolled"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_signout"
+        android:title="@string/sign_out" />
+</menu>
